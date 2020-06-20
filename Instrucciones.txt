@@ -1,0 +1,43 @@
+https://www.youtube.com/watch?v=D1W8H4Rkb9A
+Backend
+#pip install virtualenv   Instalamos
+#virtualenv venv           Creamos entorno virtual
+#pip install Flask-Pymongo flask-cors 
+
+
+Frontend
+Creamos el frontend
+create-react-app frontend
+
+F1 Crear terminal integrada
+
+Entramos en fronted
+Instalamos
+npm i react-router-dom bootswatch (tema y rutas)
+//npm install axios
+npm install --save axios
+npm install axios,
+"leaflet": "^1.6.0",
+"react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-markercluster": "^2.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "sweetalert2": "^9.10.12"
+
+Archivos
+docker-compose.yml
+Dockerfile
+
+Cargar datos a la base de datos mongo:
+1. Debemos copiar el archivo al contenedor en la carpeta temporal:
+mag@lenovo:~/Nosql/restaurant$ docker cp /home/mag/Nosql/restaurant/restaurants.json mongodb-resto:/tmp/restaurants.json
+
+2. Ahora importe el archivo a la base de datos con el siguiente comando:
+mag@lenovo:~/Nosql/restaurant$ docker exec -it mongodb-resto mongoimport --db restaurants --collection restaurants --drop --file /tmp/restaurants.json
+
+
+Heladería Italia  -32.487838, -58.250019 9 de Julio 1714 
+Heladería Italia  -32.484313, -58.231228 9 de Julio 6
+

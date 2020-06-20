@@ -1,0 +1,258 @@
+[{
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.233923",
+                "-32.480520"
+            ],
+            "street": "Artusi 755",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Drakkar"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.235354",
+                "-32.479710"
+            ],
+            "street": "Estrada 838",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "7 Colinas"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.237961",
+                "-32.481128"
+            ],
+            "street": "Artusi 998",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Cerveza Träctor"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.270980",
+                "-32.486480"
+            ],
+            "street": "Posadas 2703",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Cerveza Artesanal Biguá"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.232691",
+                "-32.481973"
+            ],
+            "street": "25 de Mayo 181",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Cerveza artesanal Ambar"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.248311",
+                "-32.477265"
+            ],
+            "street": "Calle Ruiz Moreno 657",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Cervecería Lagash"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.263282",
+                "-32.488772"
+            ],
+            "street": "21 del Oeste Sur 70",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Cervecería",
+        "grades": [],
+        "name": "Cervecería Don Alejandro"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.239349",
+                "-32.485892"
+            ],
+            "street": "9 de Julio 1124",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Parrilla",
+        "grades": [],
+        "name": "Pimienta Negra"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.232925",
+                "-32.485475"
+            ],
+            "street": "J de S Martín 763",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "El Danubio Azul"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.232799",
+                "-32.485481"
+            ],
+            "street": "3 de Febrero y San Martín",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "Bartolo Bar"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.233352",
+                "-32.487633"
+            ],
+            "street": "España 193",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "Garifo"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.231718",
+                "-32.482600"
+            ],
+            "street": "Eva Duarte de Perón 125",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "La Delfina"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.242996",
+                "-32.484400"
+            ],
+            "street": "8 de Junio 1303",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Parrilla",
+        "grades": [],
+        "name": "Parrilla 'La Única'"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.259354",
+                "-32.488939"
+            ],
+            "street": "Dr. Isaac Stilman 44",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "Parrilla",
+        "grades": [],
+        "name": "Parrilla El Monumento"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.235400",
+                "-32.485804"
+            ],
+            "street": "21 de Noviembre 38",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "Papa Luigi"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.231815",
+                "-32.481644"
+            ],
+            "street": "Eva Duarte de Perón 190-198",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "Casa Nostra"
+    },
+    {
+        "address": {
+            "building": "",
+            "coord": [
+                "-58.233295",
+                "-32.487161"
+            ],
+            "street": "España 160",
+            "zipcode": "3260"
+        },
+        "borough": "Concepción del Uruguay",
+        "cuisine": "American",
+        "grades": [],
+        "name": "Mamma Mia"
+    }
+]
+
+
