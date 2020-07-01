@@ -1,5 +1,5 @@
 Trabajo Practico #8
-SUPERHEROES SPA
+Clustering Map
 
 Comandos para iniciar la aplicación.
 docker-compose build
@@ -10,7 +10,7 @@ Desde la carpeta del proyecto
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 git push -u origin master 
 Si no anda forzarlo
 git push -u -f origin master

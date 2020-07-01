@@ -1,11 +1,11 @@
 [{
         "address": {
-            "building": "",
+            "building": "755",
             "coord": [
                 "-58.233923",
                 "-32.480520"
             ],
-            "street": "Artusi 755",
+            "street": "Artusi",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -15,12 +15,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "838",
             "coord": [
                 "-58.235354",
                 "-32.479710"
             ],
-            "street": "Estrada 838",
+            "street": "Estrada",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -30,12 +30,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "998",
             "coord": [
                 "-58.237961",
                 "-32.481128"
             ],
-            "street": "Artusi 998",
+            "street": "Artusi",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -45,12 +45,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "2703",
             "coord": [
                 "-58.270980",
                 "-32.486480"
             ],
-            "street": "Posadas 2703",
+            "street": "Posadas",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -60,12 +60,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "181",
             "coord": [
                 "-58.232691",
                 "-32.481973"
             ],
-            "street": "25 de Mayo 181",
+            "street": "25 de Mayo",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -75,12 +75,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "657",
             "coord": [
                 "-58.248311",
                 "-32.477265"
             ],
-            "street": "Calle Ruiz Moreno 657",
+            "street": "Calle Ruiz Moreno",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -90,12 +90,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "70",
             "coord": [
                 "-58.263282",
                 "-32.488772"
             ],
-            "street": "21 del Oeste Sur 70",
+            "street": "21 del Oeste Sur",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -105,12 +105,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "1124",
             "coord": [
                 "-58.239349",
                 "-32.485892"
             ],
-            "street": "9 de Julio 1124",
+            "street": "9 de Julio",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -120,12 +120,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "763",
             "coord": [
                 "-58.232925",
                 "-32.485475"
             ],
-            "street": "J de S Martín 763",
+            "street": "José de San Martín",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -150,12 +150,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "193",
             "coord": [
                 "-58.233352",
                 "-32.487633"
             ],
-            "street": "España 193",
+            "street": "España",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -165,12 +165,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "125",
             "coord": [
                 "-58.231718",
                 "-32.482600"
             ],
-            "street": "Eva Duarte de Perón 125",
+            "street": "Eva Duarte de Perón",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -180,12 +180,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "1303",
             "coord": [
                 "-58.242996",
                 "-32.484400"
             ],
-            "street": "8 de Junio 1303",
+            "street": "8 de Junio",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -195,12 +195,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "44",
             "coord": [
                 "-58.259354",
                 "-32.488939"
             ],
-            "street": "Dr. Isaac Stilman 44",
+            "street": "Dr. Isaac Stilman",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -210,12 +210,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "38",
             "coord": [
                 "-58.235400",
                 "-32.485804"
             ],
-            "street": "21 de Noviembre 38",
+            "street": "21 de Noviembre",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -225,12 +225,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "198",
             "coord": [
                 "-58.231815",
                 "-32.481644"
             ],
-            "street": "Eva Duarte de Perón 190-198",
+            "street": "Eva Duarte de Perón",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
@@ -240,12 +240,12 @@
     },
     {
         "address": {
-            "building": "",
+            "building": "160",
             "coord": [
                 "-58.233295",
                 "-32.487161"
             ],
-            "street": "España 160",
+            "street": "España",
             "zipcode": "3260"
         },
         "borough": "Concepción del Uruguay",
