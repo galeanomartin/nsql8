@@ -12,8 +12,8 @@ const RestaurantInfo = ({ id, history }) => {
     const [name, setName] = useState("");
     const [cuisine, setCuisine] = useState("");
     const [borough, setBorough] = useState("");
-    const [lat, setLat] = useState(0);
-    const [lon, setLon] = useState(0);
+    const [lat, setLat] = useState("");
+    const [lon, setLon] = useState("");
     const [street, setStreet] = useState("");
     const [zipcode, setZipcode] = useState("");
     const [building, setBuilding] = useState("");

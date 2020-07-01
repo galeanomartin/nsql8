@@ -2,24 +2,16 @@ version: "3"
 services:
     backend:
         build: ./backend/
-        container_name: 'restaurants-backend'
+        container_name: 'restaurants-backend-firestore'
         command: sh -c 'python app.py'
         ports: 
             - '5000:5000'
         volumes:
             - './backend:/backend'
-        depends_on:
-            - 'restaurants-db'
-
-    restaurants-db:
-        container_name: 'restaurants-db'
-        image: mongo
-        ports:
-            - '27017:27017'
-
+     
     frontend:
         build: ./frontend
-        container_name: 'restaurants-frontend'
+        container_name: 'restaurants-frontend-firestore'
         command: sh -c 'npm install; npm start'
         ports:
             - '3000:3000'
@@ -29,6 +21,3 @@ services:
             - 'backend'
         stdin_open: true
         tty: true
-
-
-        

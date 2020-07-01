@@ -1,67 +1,69 @@
-from pymongo import MongoClient
-from bson.objectid import ObjectId
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+from google.cloud.firestore_v1 import ArrayUnion,ArrayRemove
 import json
 
-def inicializar_db ():
-    try:
-        #client = MongoClient(host='db',port=27017)
-        client = MongoClient(host='restaurants-db',port=27017)
-        mydb = client["db"]
-        return mydb
-    except (Exception) as err:
-        return err
+cred = credentials.Certificate('key.json')
+firebase_admin.initialize_app(cred)
+
+db = firestore.client()
 
 def listar_restaurantes ():
     res = []
-    db = inicializar_db ()
-    for x in db.restaurants.find({},{"_id":1,"name":2,"borough":3,"cuisine":4,"address":5}):
-        x["id"] = str(x["_id"])
-        del x ["_id"]
-        res.append (x)
+    restaurants = db.collection(u'restaurants').stream()
+    for doc in restaurants:
+        element = doc.to_dict()
+        element["id"] = doc.id
+        res.append (element)
     return res
 
 def listar_restaurantes_tipo (tipo):
     res = []
-    db = inicializar_db ()
-    for x in db.restaurants.find({"cuisine":{"$regex":tipo}},{"_id":1,"name":2,"borough":3,"cuisine":4,"address":5}):
-        x["id"] = str(x["_id"])
-        del x ["_id"]
-        res.append (x)
+    restaurants = db.collection(u'restaurants').where(u'cuisine',u'==',tipo).stream()
+    for doc in restaurants:
+        element = doc.to_dict()
+        element["id"] = doc.id
+        res.append (element)
     return res
 
 def listar_categorias ():
     res = []
-    db = inicializar_db ()
-    for x in db.restaurants.distinct("cuisine"):
-        res.append (x)
+    restaurants = db.collection(u'restaurants').stream()
+    for doc in restaurants:
+        element = doc.to_dict()
+        if (element["cuisine"] not in res):
+            res.append (element["cuisine"])
     return res
 
 def agregar_restaurante (item):
-    db = inicializar_db ()
-    db.restaurants.insert_one(item)
+    restaurants = db.collection(u'restaurants')
+    restaurants.add(item)
 
 def modificar_restaurante (item):
-    db = inicializar_db ()
-    db.restaurants.update_one({"_id":ObjectId(item["id"])},{"$set":item})
+    id = item["id"]
+    del item ["id"]
+    restaurants = db.collection(u'restaurants')
+    restaurants.document(id).update(item)
 
 def eliminar_restaurante (id):
-    db = inicializar_db()
-    res = db.restaurants.delete_one({"_id":ObjectId(id)})
+    restaurants = db.collection(u'restaurants')
+    restaurants.document(id).delete()
 
 def obtener_restaurante (id):
-    db = inicializar_db()
-    res = db.restaurants.find_one({"_id":ObjectId(id)})
-    res["id"] = str(res["_id"])
-    del res ["_id"]
+    restaurants = db.collection(u'restaurants')
+    doc = restaurants.document(id).get()
+    res = doc.to_dict()
+    res["id"] = doc.id
     return res
 
 def cargar_datos ():
-    db = inicializar_db ()
-    if db.restaurants.count() == 0:
-        with open('restaurants.json') as f:
-            file_data = json.load(f)
-        db.restaurants.insert_many(file_data)
-        with open('restaurants_cdelu.json') as f:
-            file_data = json.load(f)
-        db.restaurants.insert_many(file_data)
-        
+    restaurants = db.collection(u'restaurants')
+    with open('restaurants.json') as f:
+        file_data = json.load(f)
+        for i in range (0,450):
+            restaurants.add(file_data[i])
+    with open('restaurants_cdelu.json') as f:
+        file_data = json.load(f)
+        for i in range (0,18):
+            restaurants.add(file_data[i])  
